@@ -34,6 +34,5 @@ def test_leap_year_zero_year():
     assert isLeapYear(0) == True
 
 
-
 if __name__ == "__main__":
     pytest.main()
