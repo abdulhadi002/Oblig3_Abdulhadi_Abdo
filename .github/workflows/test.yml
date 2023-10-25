@@ -3,11 +3,11 @@ name: Run Tests on Windows
 on:
   push:
     branches:
-      - main  # Adjust this to your repository's main branch
+      - main
 
 jobs:
   test:
-    runs-on: windows-latest  # Use a Windows runner
+    runs-on: windows-latest
 
     steps:
     - name: Checkout code
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.11  # Specify the Python version you need
+        python-version: 3.11
 
     - name: Install dependencies
       run: |
@@ -24,4 +24,4 @@ jobs:
         pip install pytest  # Replace with your package manager and dependencies if needed
 
     - name: Run tests
-      run: pytest  # Replace with your test command
+      run: pytest  
