@@ -24,4 +24,4 @@ jobs:
         pip install pytest  # Replace with your package manager and dependencies if needed
 
     - name: Run tests
-      run: pytest  
+      run: pytest
