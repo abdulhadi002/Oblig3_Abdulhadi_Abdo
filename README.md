@@ -1,2 +1,2 @@
 # Oblig3_Abdulhadi_Abdo
-oblig3 oppgaven i software.
+oblig3 Abdulhadi Abdo 
